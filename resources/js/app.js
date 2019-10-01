@@ -6,7 +6,6 @@ const bottomHf = document.querySelector(".bottom-half-circle");
 const hero = document.querySelector(".hero-text-box");
 const nav = document.querySelector(".main-nav");
 
-
 const tl = new TimelineMax();
 
 tl.fromTo(topHf, 0.7, { y: "120px" }, { y: "0px", ease: Power2.easeInOut })

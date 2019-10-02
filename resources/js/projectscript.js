@@ -4,8 +4,8 @@ new ScrollMagic.Scene({
     triggerElement: '.mansion-statement',
     triggerHook: 0
 })
-.setPin('.mansion-statement')
-.addTo(controlMansion)
+    .setPin('.mansion-statement')
+    .addTo(controlMansion)
 
 
 const controlGaming = new ScrollMagic.Controller();
@@ -14,8 +14,8 @@ new ScrollMagic.Scene({
     triggerElement: '.gaming-statement',
     triggerHook: 0
 })
-.setPin('.gaming-statement')
-.addTo(controlGaming)
+    .setPin('.gaming-statement')
+    .addTo(controlGaming)
 
 
 const controlDesign = new ScrollMagic.Controller();
@@ -24,8 +24,8 @@ new ScrollMagic.Scene({
     triggerElement: '.design-statement',
     triggerHook: 0
 })
-.setPin('.design-statement')
-.addTo(controlDesign)
+    .setPin('.design-statement')
+    .addTo(controlDesign)
 
 
 const controlLiving = new ScrollMagic.Controller();
@@ -34,8 +34,8 @@ new ScrollMagic.Scene({
     triggerElement: '.living-statement',
     triggerHook: 0
 })
-.setPin('.living-statement')
-.addTo(controlLiving)
+    .setPin('.living-statement')
+    .addTo(controlLiving)
 
 
 const controlBushwick = new ScrollMagic.Controller();
@@ -44,8 +44,8 @@ new ScrollMagic.Scene({
     triggerElement: '.bushwick-statement',
     triggerHook: 0
 })
-.setPin('.bushwick-statement')
-.addTo(controlBushwick)
+    .setPin('.bushwick-statement')
+    .addTo(controlBushwick)
 
 
 const controlBqx = new ScrollMagic.Controller();
@@ -54,8 +54,8 @@ new ScrollMagic.Scene({
     triggerElement: '.bqx-statement',
     triggerHook: 0
 })
-.setPin('.bqx-statement')
-.addTo(controlBqx)
+    .setPin('.bqx-statement')
+    .addTo(controlBqx)
 
 
 const controlSmallpox = new ScrollMagic.Controller();
@@ -64,8 +64,8 @@ new ScrollMagic.Scene({
     triggerElement: '.smallpox-statement',
     triggerHook: 0
 })
-.setPin('.smallpox-statement')
-.addTo(controlSmallpox)
+    .setPin('.smallpox-statement')
+    .addTo(controlSmallpox)
 
 
 const controlKent = new ScrollMagic.Controller();
@@ -74,8 +74,8 @@ new ScrollMagic.Scene({
     triggerElement: '.kent-statement',
     triggerHook: 0
 })
-.setPin('.kent-statement')
-.addTo(controlKent)
+    .setPin('.kent-statement')
+    .addTo(controlKent)
 
 
 const controlPaintings = new ScrollMagic.Controller();
@@ -84,8 +84,8 @@ new ScrollMagic.Scene({
     triggerElement: '.paintings-statement',
     triggerHook: 0
 })
-.setPin('.paintings-statement')
-.addTo(controlPaintings)
+    .setPin('.paintings-statement')
+    .addTo(controlPaintings)
 
 const controlSketches = new ScrollMagic.Controller();
 new ScrollMagic.Scene({
@@ -93,5 +93,5 @@ new ScrollMagic.Scene({
     triggerElement: '.sketches-statement',
     triggerHook: 0
 })
-.setPin('.sketches-statement')
-.addTo(controlSketches)
+    .setPin('.sketches-statement')
+    .addTo(controlSketches)

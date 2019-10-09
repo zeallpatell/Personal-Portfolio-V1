@@ -12,7 +12,7 @@ tl.fromTo(topHf, 0.7, { y: "120px" }, { y: "0px", ease: Power2.easeInOut })
   .fromTo(topLt, 0.5, { x: "41px" }, { x: "0px", ease: Power2.easeInOut })
   .fromTo(bottomRt, 0.5, { x: "-125px", y: "50px" }, { x: "-85px", y: "50px", ease: Power2.easeInOut }, "-=0.5")
   .fromTo(bottomHf, 0.7, { y: "-45px" }, { y: "98px", ease: Power2.easeInOut }, "-=1.2")
-  .fromTo(hero, 0.7, { x: "-200%" }, { x: "0%", ease: Power2.easeInOut })
+  .fromTo(hero, 0.9, { x: "-300%" }, { x: "0%", ease: Power2.easeInOut })
   .fromTo(nav, 0.7, { x: "150%" }, { x: "0%", ease: Power2.easeInOut }, "-=0.7");
 
 /* -----HEADER-PARALLAX----- */
